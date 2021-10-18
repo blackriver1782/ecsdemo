@@ -1,7 +1,0 @@
-ec2-user 26666  0.0  0.0 119420   968 pts/0    S+   07:34   0:00 grep --color=auto uwsgi
-ec2-user 27482  0.0  2.6  35844 26472 ?        Ss   Oct14   0:10 uwsgi --http=0.0.0.0:8000 --module=todobackend.wsgi --master --check-static=/public --die-on-term --processes=4 --threads=2
-ec2-user 27544  0.2  4.1  48088 41716 ?        Sl   Oct14   7:50 uwsgi --http=0.0.0.0:8000 --module=todobackend.wsgi --master --check-static=/public --die-on-term --processes=4 --threads=2
-ec2-user 27545  0.0  3.3  44568 34104 ?        Sl   Oct14   0:00 uwsgi --http=0.0.0.0:8000 --module=todobackend.wsgi --master --check-static=/public --die-on-term --processes=4 --threads=2
-ec2-user 27546  0.0  3.7  44600 38004 ?        Sl   Oct14   0:02 uwsgi --http=0.0.0.0:8000 --module=todobackend.wsgi --master --check-static=/public --die-on-term --processes=4 --threads=2
-ec2-user 27547  0.0  3.4  44216 35164 ?        Sl   Oct14   0:05 uwsgi --http=0.0.0.0:8000 --module=todobackend.wsgi --master --check-static=/public --die-on-term --processes=4 --threads=2
-ec2-user 27548  0.0  2.5  35844 25536 ?        S    Oct14   0:42 uwsgi --http=0.0.0.0:8000 --module=todobackend.wsgi --master --check-static=/public --die-on-term --processes=4 --threads=2
